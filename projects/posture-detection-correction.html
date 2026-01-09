@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posture Detection and Correction - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="Posture Detection and Correction App" data-zh="坐姿识别与纠正系统">Posture Detection and Correction App</h1>
+                    <div class="detail-meta">
+                        <span data-en="Jan 2024 - Feb 2024" data-zh="2024年1月 - 2024年2月">Jan 2024 - Feb 2024</span>
+                        <span data-en="Category: Computer Vision" data-zh="分类：计算机视觉">Category: Computer Vision</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Sole Developer: full ownership of design, implementation, and optimization" data-zh="项目唯一负责人，独立完成设计、实现与优化">Sole Developer: full ownership of design, implementation, and optimization</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/spring-2024.html" data-en="CPS4893 – Machine Learning & Computer Vision" data-zh="CPS4893 – 机器学习与计算机视觉">CPS4893 – Machine Learning & Computer Vision</a></p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="The goal of this project was to build an app capable of detecting and correcting human sitting posture using real-time camera input. The app was expected to meet commercial-grade frame rate standards, provide a clean user interface, and maintain low memory and latency consumption during posture classification." data-zh="本项目旨在设计一个坐姿识别与纠正 App，利用摄像头实时监测用户坐姿，判断其是否端正并给出反馈。系统需满足商业级帧率要求，具备良好的界面交互体验，且检测过程中对显存与计算延迟的使用保持在可控范围内。">
+                    The goal of this project was to build an app capable of detecting and correcting human sitting posture using real-time camera input. The app was expected to meet commercial-grade frame rate standards, provide a clean user interface, and maintain low memory and latency consumption during posture classification.
+                </p>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p data-en="Real-time video processing with OpenCV, Human posture classification, MVC pattern design, GPU acceleration with CUDA, UI rendering and frame rate management" data-zh="OpenCV 视频流处理、人体坐姿识别算法、MVC 架构设计模式、CUDA 显卡并行加速、UI 设计与帧率控制">Real-time video processing with OpenCV, Human posture classification, MVC pattern design, GPU acceleration with CUDA, UI rendering and frame rate management</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Designed and implemented the full system architecture, UI, and functionality" data-zh="独立设计应用功能逻辑与 UI 界面，明确前后端职责并构建 MVC 架构">Designed and implemented the full system architecture, UI, and functionality</li>
+                    <li data-en="Captured and analyzed webcam video in real-time using OpenCV" data-zh="使用 OpenCV 获取摄像头视频帧，实时提取人体关键部位特征">Captured and analyzed webcam video in real-time using OpenCV</li>
+                    <li data-en="Built a posture classification algorithm to detect and correct improper sitting" data-zh="设计坐姿分类模型，判定是否坐正并实时给出提醒反馈">Built a posture classification algorithm to detect and correct improper sitting</li>
+                    <li data-en="Applied CUDA GPU acceleration to optimize prediction speed and ensure consistent frame rate" data-zh="使用 CUDA 加速姿态分析模块，确保帧率稳定在商业应用标准以上">Applied CUDA GPU acceleration to optimize prediction speed and ensure consistent frame rate</li>
+                    <li data-en="Managed system latency and memory usage to meet commercial performance standards" data-zh="控制内存占用、减少预测延迟，优化整体用户体验与稳定性">Managed system latency and memory usage to meet commercial performance standards</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Delivered a real-time posture correction app with high accuracy and fast response" data-zh="成功构建可实时运行的姿态识别 App，坐姿识别准确率高，响应快速">Delivered a real-time posture correction app with high accuracy and fast response</li>
+                    <li data-en="Clean UI and immediate feedback enhanced user interaction" data-zh="界面简洁、用户反馈清晰，系统整体延迟控制在 100ms 内">Clean UI and immediate feedback enhanced user interaction</li>
+                    <li data-en="Achieved latency <100ms, suitable for near-commercial deployment" data-zh="项目展示中，系统性能与识别效果获得课程讲师积极评价">Achieved latency <100ms, suitable for near-commercial deployment</li>
+                    <li data-en="Gained hands-on experience in building and optimizing computer vision applications" data-zh="总结了计算机视觉类 App 的完整实现流程与性能优化策略">Gained hands-on experience in building and optimizing computer vision applications</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p data-en="Not yet available" data-zh="尚未公开">Not yet available</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical Image Segmentation - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="Classical Image Segmentation and Evaluation" data-zh="弱监督图像分割方法比较与评估">Classical Image Segmentation and Evaluation</h1>
+                    <div class="detail-meta">
+                        <span data-en="Oct 2025 - Dec 2025" data-zh="2025年10月 - 2025年12月">Oct 2025 - Dec 2025</span>
+                        <span data-en="Categories: Computer Vision, Image Processing" data-zh="分类：计算机视觉、图像处理">Categories: Computer Vision, Image Processing</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Core team member responsible for algorithm implementation, parameter tuning, and evaluation design" data-zh="小组项目核心成员，负责算法实现、参数调优与评估体系设计">Core team member responsible for algorithm implementation, parameter tuning, and evaluation design</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/fall-2025.html" data-en="EECE 5626 – Image Processing & Pattern Recognition" data-zh="EECE 5626 – 图像处理与模式识别">EECE 5626 – Image Processing & Pattern Recognition</a></p>
+
+                <h2 data-en="Background" data-zh="项目背景">Background</h2>
+                <p data-en="Image segmentation is a fundamental problem in computer vision. Compared to deep learning approaches, classical or weakly supervised segmentation methods remain relevant in scenarios with limited or no labeled data. This project focuses on systematically evaluating classical segmentation techniques on natural images." data-zh="图像分割是计算机视觉中的基础问题之一。相较于深度学习方法，传统或弱监督图像分割算法在无标注或弱标注场景下仍具有研究与应用价值。本项目基于经典图像处理与图论方法，对多种弱分割算法在自然图像数据集上的表现进行系统比较与分析。">
+                    Image segmentation is a fundamental problem in computer vision. Compared to deep learning approaches, classical or weakly supervised segmentation methods remain relevant in scenarios with limited or no labeled data. This project focuses on systematically evaluating classical segmentation techniques on natural images.
+                </p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <ul>
+                    <li data-en="Implement and compare multiple classical image segmentation algorithms" data-zh="实现并比较多种经典图像分割算法">Implement and compare multiple classical image segmentation algorithms</li>
+                    <li data-en="Analyze strengths and weaknesses of each algorithm under unified dataset and evaluation standards" data-zh="在统一数据集与评估标准下分析各算法优缺点">Analyze strengths and weaknesses of each algorithm under unified dataset and evaluation standards</li>
+                    <li data-en="Study the impact of parameter settings on segmentation quality and stability" data-zh="研究参数设置对分割质量与稳定性的影响">Study the impact of parameter settings on segmentation quality and stability</li>
+                    <li data-en="Build a reusable segmentation evaluation and visualization pipeline" data-zh="构建可复用的分割评估与可视化管线">Build a reusable segmentation evaluation and visualization pipeline</li>
+                </ul>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p data-en="Python image processing (NumPy, OpenCV, scikit-image), Classical image segmentation algorithm implementation, Graph theory & clustering methods, Parameter tuning & grid search, Segmentation evaluation metrics & visualization" data-zh="Python 图像处理（NumPy, OpenCV, scikit-image）、经典图像分割算法实现、图论与聚类方法、参数调优与网格搜索、分割评估指标与可视化">Python image processing (NumPy, OpenCV, scikit-image), Classical image segmentation algorithm implementation, Graph theory & clustering methods, Parameter tuning & grid search, Segmentation evaluation metrics & visualization</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Implemented multiple classical segmentation algorithms, including Otsu thresholding, K-Means clustering, Active Contours, Watershed, and graph-based segmentation" data-zh="实现多种经典 / 弱监督图像分割算法，包括：Otsu 全局阈值分割、K-Means 颜色聚类分割、基于 Otsu 初始化的 Active Contour（Snake）模型、形态学 Watershed 分割、基于图的 Felzenszwalb 分割算法">Implemented multiple classical segmentation algorithms, including Otsu thresholding, K-Means clustering, Active Contours, Watershed, and graph-based segmentation</li>
+                    <li data-en="Designed parameter tuning strategies for each method" data-zh="针对不同算法设计参数搜索与调优策略（如阈值、迭代次数、平滑系数等）">Designed parameter tuning strategies for each method</li>
+                    <li data-en="Built a unified evaluation pipeline for segmentation results" data-zh="构建统一的分割结果评估流程">Built a unified evaluation pipeline for segmentation results</li>
+                    <li data-en="Evaluated performance using precision, recall, F-score, and boundary-based metrics" data-zh="实现并比较多种评估指标，包括 Precision、Recall、F-score、边界匹配等">Evaluated performance using precision, recall, F-score, and boundary-based metrics</li>
+                    <li data-en="Conducted experiments on the BSDS500 dataset with qualitative and quantitative analysis" data-zh="在 BSDS500 数据集上进行实验，并对结果进行可视化与定量分析">Conducted experiments on the BSDS500 dataset with qualitative and quantitative analysis</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Successfully implemented and compared multiple classical segmentation methods" data-zh="成功实现并对比多种经典分割算法在自然图像上的表现">Successfully implemented and compared multiple classical segmentation methods</li>
+                    <li data-en="Analyzed trade-offs in boundary accuracy, region consistency, and computational cost" data-zh="分析了不同算法在边界保持、区域一致性和计算复杂度方面的差异">Analyzed trade-offs in boundary accuracy, region consistency, and computational cost</li>
+                    <li data-en="Demonstrated the sensitivity of segmentation quality to parameter choices" data-zh="实验结果表明，不同方法在不同图像结构与参数设置下具有明显优劣">Demonstrated the sensitivity of segmentation quality to parameter choices</li>
+                    <li data-en="Delivered a reusable evaluation and visualization framework" data-zh="构建的评估与可视化管线可复用于后续分割算法研究">Delivered a reusable evaluation and visualization framework</li>
+                </ul>
+
+                <h2 data-en="Project Value" data-zh="项目价值">Project Value</h2>
+                <ul>
+                    <li data-en="Demonstrates systematic understanding of classical computer vision methods" data-zh="展示对经典计算机视觉方法的系统理解">Demonstrates systematic understanding of classical computer vision methods</li>
+                    <li data-en="Emphasizes algorithm principles, parameter tuning, and evaluation methods rather than black-box models" data-zh="强调算法原理、参数调优与评估方法，而非黑盒模型">Emphasizes algorithm principles, parameter tuning, and evaluation methods rather than black-box models</li>
+                    <li data-en="Reflects complete research workflow from algorithm implementation to experimental analysis" data-zh="体现从算法实现到实验分析的完整研究流程">Reflects complete research workflow from algorithm implementation to experimental analysis</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p data-en="Available upon request" data-zh="可根据需要提供">Available upon request</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

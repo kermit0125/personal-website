@@ -1,0 +1,17 @@
+{
+  "name": "keming-xing-website",
+  "version": "1.0.0",
+  "description": "Personal academic website for Keming Xing",
+  "scripts": {
+    "start": "python start-server.py",
+    "serve": "python start-server.py"
+  },
+  "keywords": [
+    "academic",
+    "website",
+    "portfolio"
+  ],
+  "author": "Keming Xing",
+  "license": "MIT"
+}
+

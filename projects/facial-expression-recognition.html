@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Expression Recognition - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="Facial Expression Recognition" data-zh="脸部表情识别">Facial Expression Recognition</h1>
+                    <div class="detail-meta">
+                        <span data-en="Mar 2023 - May 2023" data-zh="2023年3月 - 2023年5月">Mar 2023 - May 2023</span>
+                        <span data-en="Categories: Data Classification, Computer Vision" data-zh="分类：数据分类、计算机视觉">Categories: Data Classification, Computer Vision</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Lead contributor for code implementation, responsible for preprocessing, model architecture, expression classification, and visualization." data-zh="代码部分主要负责人，完成数据预处理、模型设计、表情分类与结果可视化。">Lead contributor for code implementation, responsible for preprocessing, model architecture, expression classification, and visualization.</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/spring-2023.html" data-en="MATH 3710 – Data Analysis" data-zh="MATH 3710 – 数据分析">MATH 3710 – Data Analysis</a></p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="This project aimed to recognize facial expressions from user-uploaded images through deep learning-based emotion classification. Models like VGG19 and ResNet18 were implemented and compared to classify expressions into categories such as Angry, Happy, Sad, etc. Visual results and prediction probability distributions were generated." data-zh="本项目目的是利用情感分析与表情识别技术，实现对上传图片中的脸部数据进行表情分类判断。项目采用 VGG19 和 ResNet18 等模型给予比较，并通过应用情感类别结果进行情绪投影。">
+                    This project aimed to recognize facial expressions from user-uploaded images through deep learning-based emotion classification. Models like VGG19 and ResNet18 were implemented and compared to classify expressions into categories such as Angry, Happy, Sad, etc. Visual results and prediction probability distributions were generated.
+                </p>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p>Python, PyTorch, OpenCV</p>
+                <p data-en="VGG19, ResNet18 model implementation and comparison, CK+ Dataset, Emotion category recognition and expression classification, Confusion Matrix, Softmax score bar charts" data-zh="VGG19、ResNet18 模型实现与对比、CK+ 数据集、情感类别识别与表情分类、Confusion Matrix、Softmax 分数柱状图">VGG19, ResNet18 model implementation and comparison, CK+ Dataset, Emotion category recognition and expression classification, Confusion Matrix, Softmax score bar charts</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Handled input image processing: grayscale conversion, resizing, cropping, and tensor preparation" data-zh="处理图片输入，包括灰度化、裁剪、缩放和转换为 Tensor">Handled input image processing: grayscale conversion, resizing, cropping, and tensor preparation</li>
+                    <li data-en="Implemented and trained deep learning models (VGG19 & ResNet18) for emotion recognition" data-zh="实现表情识别模型，训练 VGG19 与 ResNet18">Implemented and trained deep learning models (VGG19 & ResNet18) for emotion recognition</li>
+                    <li data-en="Visualized results with classification bar plots and corresponding emoji icons" data-zh="应用情感分类结果，生成分类柱图和对应 emoji 图像">Visualized results with classification bar plots and corresponding emoji icons</li>
+                    <li data-en="Plotted confusion matrices and analyzed classification accuracy for each expression" data-zh="绘出 confusion matrix 观察预测效果，实现分类可视化">Plotted confusion matrices and analyzed classification accuracy for each expression</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Successfully classified facial expressions from images and visualized emotion output" data-zh="成功实现了给定图片的表情识别和分类结果展示">Successfully classified facial expressions from images and visualized emotion output</li>
+                    <li data-en="VGG achieved higher accuracy than ResNet but with longer inference time" data-zh="VGG 模型分类精度高于 ResNet 但耗时较长，结果合理">VGG achieved higher accuracy than ResNet but with longer inference time</li>
+                    <li data-en="Delivered interpretable visualizations including classification bars, emojis, and confusion matrices" data-zh="展示了各类表情的预测分数和对应图像，增强观感效果">Delivered interpretable visualizations including classification bars, emojis, and confusion matrices</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p data-en="GitHub repository not yet published" data-zh="暂无 GitHub">GitHub repository not yet published</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

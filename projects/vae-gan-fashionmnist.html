@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAE-GAN FashionMNIST - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="Exploring Variational Autoencoders (VAE) and Generative Adversarial Networks (GAN) on Fashion-MNIST" data-zh="VAE 与 GAN 的初步探索">Exploring Variational Autoencoders (VAE) and Generative Adversarial Networks (GAN) on Fashion-MNIST</h1>
+                    <div class="detail-meta">
+                        <span data-en="Apr 2025 - May 2025" data-zh="2025年4月 - 2025年5月">Apr 2025 - May 2025</span>
+                        <span data-en="Category: Image Generation" data-zh="分类：图像生成">Category: Image Generation</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Sole Developer & Researcher" data-zh="项目独立设计与开发者（个人完成）">Sole Developer & Researcher</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/spring-2025.html" data-en="EECE 7397 – Advanced Machine Learning" data-zh="EECE 7397 – 高级机器学习">EECE 7397 – Advanced Machine Learning</a></p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="This project explored foundational concepts in generative modeling through hands-on implementation of VAE and GAN architectures. The goal was to gain practical experience with model design, training mechanics, and evaluation using the Fashion-MNIST dataset." data-zh="本项目旨在通过实现 VAE 和 GAN 两种基础生成模型，深入理解其原理与训练机制，并在 Fashion-MNIST 数据集上进行实验，积累生成式模型的实践经验。">
+                    This project explored foundational concepts in generative modeling through hands-on implementation of VAE and GAN architectures. The goal was to gain practical experience with model design, training mechanics, and evaluation using the Fashion-MNIST dataset.
+                </p>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p>Python, PyTorch, NumPy, Matplotlib</p>
+                <p data-en="VAE, GAN model construction & training, Fréchet Inception Distance (FID) for quantitative evaluation" data-zh="VAE、GAN 模型构建与训练、Fréchet Inception Distance (FID) 用于定量评估">VAE, GAN model construction & training, Fréchet Inception Distance (FID) for quantitative evaluation</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Independently built both VAE and GAN architectures using PyTorch" data-zh="使用 PyTorch 独立完成 VAE 与 GAN 的构建与训练流程">Independently built both VAE and GAN architectures using PyTorch</li>
+                    <li data-en="Implemented reparameterization in VAE to enable proper backpropagation" data-zh="在 VAE 中实现重参数化技巧，支持网络反向传播">Implemented reparameterization in VAE to enable proper backpropagation</li>
+                    <li data-en="Tuned GAN loss functions for stable training" data-zh="调整 GAN 损失函数以提升训练稳定性">Tuned GAN loss functions for stable training</li>
+                    <li data-en="Visualized training outputs and assessed quality using FID" data-zh="对生成图像进行可视化，并使用 FID 分数作为图像质量参考">Visualized training outputs and assessed quality using FID</li>
+                    <li data-en="Completed all stages from data preprocessing to model evaluation and presentation" data-zh="全程独立完成数据处理、模型实现、训练评估与最终展示">Completed all stages from data preprocessing to model evaluation and presentation</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Successfully implemented VAE and GAN models to generate grayscale images based on the Fashion-MNIST dataset" data-zh="成功使用 Fashion-MNIST 数据集，分别构建并训练了 VAE 与 GAN 模型以生成灰度图像">Successfully implemented VAE and GAN models to generate grayscale images based on the Fashion-MNIST dataset</li>
+                    <li data-en="VAE produced smooth and continuous image outputs, while GAN generated sharper and more detailed images" data-zh="VAE 模型生成的图像更平滑连贯，而 GAN 模型则呈现出更多细节与锐度">VAE produced smooth and continuous image outputs, while GAN generated sharper and more detailed images</li>
+                    <li data-en="The project provided a hands-on understanding of generative model behavior, highlighting differences in latent space design and training strategies" data-zh="项目帮助深入理解了两种生成模型的表现差异，尤其在潜空间结构设计与训练策略方面提供了实践视角">The project provided a hands-on understanding of generative model behavior, highlighting differences in latent space design and training strategies</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p>
+                    <a href="https://github.com/kermit0125/VAE-and-GAN-on-the-Fashion-MNIST-Dataset-Using-PyTorch" target="_blank" data-en="View GitHub Repository" data-zh="访问项目 GitHub 仓库">View GitHub Repository</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

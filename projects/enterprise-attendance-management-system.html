@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Attendance Management System - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="Enterprise Attendance Management System" data-zh="企业考勤管理系统">Enterprise Attendance Management System</h1>
+                    <div class="detail-meta">
+                        <span data-en="2024 - 2025" data-zh="2024年 - 2025年">2024 - 2025</span>
+                        <span data-en="Category: Software Development" data-zh="分类：软件开发">Category: Software Development</span>
+                    </div>
+                </div>
+
+                <div style="background-color: var(--bg-light); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border-left: 4px solid var(--primary-color);">
+                    <p style="margin: 0; color: var(--text-light); font-size: 0.95rem;" data-en="📝 Authorization Notice: This project is published with the explicit authorization and approval of Shanghai Runlan Filtration Equipment Co., Ltd. (上海润岚过滤设备有限公司). All code and documentation are shared for educational and portfolio purposes." data-zh="📝 授权声明：本项目已获得上海润岚过滤设备有限公司的明确授权和批准。所有代码和文档均用于教育和作品集展示目的。">
+                        📝 Authorization Notice: This project is published with the explicit authorization and approval of Shanghai Runlan Filtration Equipment Co., Ltd. (上海润岚过滤设备有限公司). All code and documentation are shared for educational and portfolio purposes.
+                    </p>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Full-Stack Developer & System Architect" data-zh="全栈开发工程师与系统架构师">Full-Stack Developer & System Architect</p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="Designed and developed a comprehensive enterprise-grade attendance management system with frontend-backend separation architecture. The system provides complete solutions for employee clock-in/out, leave requests, business trips, overtime applications, approval workflows, and statistical reporting. This project demonstrates proficiency in full-stack development, system architecture design, RESTful API development, database design, authentication & authorization, and production deployment." data-zh="设计并开发了一个采用前后端分离架构的企业级考勤管理系统。系统提供员工打卡、请假申请、出差申请、加班申请、审批流程和统计报表等完整功能。本项目展示了全栈开发、系统架构设计、RESTful API 开发、数据库设计、认证授权和生产部署等方面的能力。">
+                    Designed and developed a comprehensive enterprise-grade attendance management system with frontend-backend separation architecture. The system provides complete solutions for employee clock-in/out, leave requests, business trips, overtime applications, approval workflows, and statistical reporting. This project demonstrates proficiency in full-stack development, system architecture design, RESTful API development, database design, authentication & authorization, and production deployment.
+                </p>
+
+                <h2 data-en="System Architecture" data-zh="系统架构">System Architecture</h2>
+                <p data-en="The system adopts a modern three-tier architecture with clear separation of concerns:" data-zh="系统采用现代三层架构，职责分离清晰：">
+                    The system adopts a modern three-tier architecture with clear separation of concerns:
+                </p>
+                <ul>
+                    <li data-en="Frontend Layer: Vue 3 with Composition API, TypeScript for type safety, Element Plus for UI components, Pinia for state management" data-zh="前端层：Vue 3 Composition API、TypeScript 类型安全、Element Plus UI 组件库、Pinia 状态管理">Frontend Layer: Vue 3 with Composition API, TypeScript for type safety, Element Plus for UI components, Pinia for state management</li>
+                    <li data-en="Backend Layer: Fastify framework for high-performance RESTful API, TypeScript for type safety, layered architecture (routes → controllers → services → repositories)" data-zh="后端层：Fastify 高性能 RESTful API 框架、TypeScript 类型安全、分层架构（路由 → 控制器 → 服务 → 数据访问层）">Backend Layer: Fastify framework for high-performance RESTful API, TypeScript for type safety, layered architecture (routes → controllers → services → repositories)</li>
+                    <li data-en="Data Layer: MySQL 8.x database with Prisma ORM for type-safe database access and migrations" data-zh="数据层：MySQL 8.x 数据库，Prisma ORM 实现类型安全的数据访问和迁移">Data Layer: MySQL 8.x database with Prisma ORM for type-safe database access and migrations</li>
+                </ul>
+
+                <h2 data-en="Key Features & Technical Highlights" data-zh="核心功能与技术亮点">Key Features & Technical Highlights</h2>
+                
+                <h3 data-en="1. Authentication & Authorization System" data-zh="1. 认证与授权系统">1. Authentication & Authorization System</h3>
+                <ul>
+                    <li data-en="Implemented JWT-based authentication with secure token management" data-zh="实现基于 JWT 的认证机制，安全的令牌管理">Implemented JWT-based authentication with secure token management</li>
+                    <li data-en="Role-Based Access Control (RBAC) with four roles: Employee, Manager, HR, Admin" data-zh="基于角色的访问控制（RBAC），包含员工、经理、HR、管理员四种角色">Role-Based Access Control (RBAC) with four roles: Employee, Manager, HR, Admin</li>
+                    <li data-en="Middleware-based route protection ensuring secure API endpoints" data-zh="基于中间件的路由保护，确保 API 端点安全">Middleware-based route protection ensuring secure API endpoints</li>
+                    <li data-en="Password encryption using bcrypt with salt rounds" data-zh="使用 bcrypt 加盐哈希进行密码加密">Password encryption using bcrypt with salt rounds</li>
+                </ul>
+
+                <h3 data-en="2. RESTful API Design & Implementation" data-zh="2. RESTful API 设计与实现">2. RESTful API Design & Implementation</h3>
+                <ul>
+                    <li data-en="Designed comprehensive RESTful API endpoints following REST principles" data-zh="遵循 REST 原则设计完整的 RESTful API 端点">Designed comprehensive RESTful API endpoints following REST principles</li>
+                    <li data-en="Request validation using Zod schema validation library" data-zh="使用 Zod 模式验证库进行请求参数验证">Request validation using Zod schema validation library</li>
+                    <li data-en="Structured error handling with consistent error response format" data-zh="结构化错误处理，统一的错误响应格式">Structured error handling with consistent error response format</li>
+                    <li data-en="API documentation with Postman collection for testing" data-zh="提供 Postman 集合的 API 文档用于测试">API documentation with Postman collection for testing</li>
+                </ul>
+
+                <h3 data-en="3. Database Design & Data Modeling" data-zh="3. 数据库设计与数据建模">3. Database Design & Data Modeling</h3>
+                <ul>
+                    <li data-en="Designed normalized database schema with Prisma Schema Language" data-zh="使用 Prisma Schema Language 设计规范化数据库模式">Designed normalized database schema with Prisma Schema Language</li>
+                    <li data-en="Implemented complex relationships: one-to-many, many-to-many with proper foreign keys" data-zh="实现复杂关系：一对多、多对多关系，正确的外键约束">Implemented complex relationships: one-to-many, many-to-many with proper foreign keys</li>
+                    <li data-en="Organization-level data isolation using org_id for multi-tenant support" data-zh="使用 org_id 实现组织级数据隔离，支持多租户">Organization-level data isolation using org_id for multi-tenant support</li>
+                    <li data-en="Database migrations and seed data management" data-zh="数据库迁移和种子数据管理">Database migrations and seed data management</li>
+                </ul>
+
+                <h3 data-en="4. Frontend Development" data-zh="4. 前端开发">4. Frontend Development</h3>
+                <ul>
+                    <li data-en="Component-based architecture with reusable Vue 3 components" data-zh="基于组件的架构，可复用的 Vue 3 组件">Component-based architecture with reusable Vue 3 components</li>
+                    <li data-en="Type-safe development with TypeScript throughout the frontend" data-zh="前端全面使用 TypeScript 实现类型安全开发">Type-safe development with TypeScript throughout the frontend</li>
+                    <li data-en="State management with Pinia stores for user authentication and application state" data-zh="使用 Pinia 状态管理用户认证和应用状态">State management with Pinia stores for user authentication and application state</li>
+                    <li data-en="Responsive UI design with Element Plus component library" data-zh="使用 Element Plus 组件库实现响应式 UI 设计">Responsive UI design with Element Plus component library</li>
+                    <li data-en="Axios interceptors for request/response handling and error management" data-zh="Axios 拦截器处理请求/响应和错误管理">Axios interceptors for request/response handling and error management</li>
+                </ul>
+
+                <h3 data-en="5. Business Logic Implementation" data-zh="5. 业务逻辑实现">5. Business Logic Implementation</h3>
+                <ul>
+                    <li data-en="Clock-in/out module with GPS location verification" data-zh="打卡模块，包含 GPS 位置验证">Clock-in/out module with GPS location verification</li>
+                    <li data-en="Multi-type request system: leave, business trip, punch correction, overtime" data-zh="多类型申请系统：请假、出差、补卡、加班">Multi-type request system: leave, business trip, punch correction, overtime</li>
+                    <li data-en="Approval workflow with duration modification and comments" data-zh="审批工作流，支持时长修改和评论">Approval workflow with duration modification and comments</li>
+                    <li data-en="Statistical reporting with work hours calculation and attendance analytics" data-zh="统计报表，工时计算和考勤分析">Statistical reporting with work hours calculation and attendance analytics</li>
+                    <li data-en="User management with CRUD operations and role assignment" data-zh="用户管理，CRUD 操作和角色分配">User management with CRUD operations and role assignment</li>
+                </ul>
+
+                <h2 data-en="Technologies" data-zh="技术栈">Technologies</h2>
+                <h3 data-en="Frontend" data-zh="前端">Frontend</h3>
+                <p>Vue 3, TypeScript, Vite, Element Plus, Vue Router, Pinia, Axios</p>
+                
+                <h3 data-en="Backend" data-zh="后端">Backend</h3>
+                <p>Node.js ≥ 20, Fastify, TypeScript, Prisma ORM, MySQL 8.x, Zod, JWT, bcrypt</p>
+
+                <h3 data-en="DevOps & Deployment" data-zh="DevOps 与部署">DevOps & Deployment</h3>
+                <p data-en="Vercel (Frontend), Render (Backend), Aiven MySQL, GitHub Actions, Environment Configuration" data-zh="Vercel（前端）、Render（后端）、Aiven MySQL、GitHub Actions、环境配置">Vercel (Frontend), Render (Backend), Aiven MySQL, GitHub Actions, Environment Configuration</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Architected the entire system with frontend-backend separation and layered backend design" data-zh="设计整个系统架构，前后端分离和分层后端设计">Architected the entire system with frontend-backend separation and layered backend design</li>
+                    <li data-en="Designed and implemented RESTful API endpoints with proper HTTP methods and status codes" data-zh="设计并实现 RESTful API 端点，使用正确的 HTTP 方法和状态码">Designed and implemented RESTful API endpoints with proper HTTP methods and status codes</li>
+                    <li data-en="Developed database schema with Prisma, including relationships, indexes, and constraints" data-zh="使用 Prisma 开发数据库模式，包括关系、索引和约束">Developed database schema with Prisma, including relationships, indexes, and constraints</li>
+                    <li data-en="Implemented authentication middleware and JWT token management system" data-zh="实现认证中间件和 JWT 令牌管理系统">Implemented authentication middleware and JWT token management system</li>
+                    <li data-en="Built role-based access control system with permission checks at API and UI levels" data-zh="构建基于角色的访问控制系统，在 API 和 UI 层面进行权限检查">Built role-based access control system with permission checks at API and UI levels</li>
+                    <li data-en="Developed frontend components with Vue 3 Composition API and TypeScript" data-zh="使用 Vue 3 Composition API 和 TypeScript 开发前端组件">Developed frontend components with Vue 3 Composition API and TypeScript</li>
+                    <li data-en="Implemented complex business logic including approval workflows and statistical calculations" data-zh="实现复杂的业务逻辑，包括审批工作流和统计计算">Implemented complex business logic including approval workflows and statistical calculations</li>
+                    <li data-en="Configured and deployed application to production environments (Vercel, Render)" data-zh="配置并部署应用到生产环境（Vercel、Render）">Configured and deployed application to production environments (Vercel, Render)</li>
+                    <li data-en="Wrote comprehensive documentation including API documentation, deployment guides, and user guides" data-zh="编写完整文档，包括 API 文档、部署指南和用户指南">Wrote comprehensive documentation including API documentation, deployment guides, and user guides</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Successfully deployed production-ready system serving real enterprise users" data-zh="成功部署生产就绪的系统，为真实企业用户提供服务">Successfully deployed production-ready system serving real enterprise users</li>
+                    <li data-en="Achieved type safety across the entire stack with TypeScript and Prisma" data-zh="通过 TypeScript 和 Prisma 实现全栈类型安全">Achieved type safety across the entire stack with TypeScript and Prisma</li>
+                    <li data-en="Implemented scalable architecture supporting multiple organizations and roles" data-zh="实现可扩展架构，支持多组织和多角色">Implemented scalable architecture supporting multiple organizations and roles</li>
+                    <li data-en="Delivered comprehensive feature set covering all attendance management requirements" data-zh="交付完整功能集，覆盖所有考勤管理需求">Delivered comprehensive feature set covering all attendance management requirements</li>
+                    <li data-en="Demonstrated proficiency in modern software engineering practices and tools" data-zh="展示了现代软件工程实践和工具的熟练运用">Demonstrated proficiency in modern software engineering practices and tools</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p>
+                    <a href="https://github.com/kermit0125/Project_Attendance_tracking_wechat-program" target="_blank" data-en="View GitHub Repository" data-zh="访问项目 GitHub 仓库">View GitHub Repository</a>
+                    <i class="fas fa-external-link-alt" style="margin-left: 0.5rem; color: var(--text-light); font-size: 0.9rem;"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Visual Dashboard - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="COVID-19 Data Visualization Dashboard" data-zh="COVID-19 疫情可视化仪表盘">COVID-19 Data Visualization Dashboard</h1>
+                    <div class="detail-meta">
+                        <span data-en="Mar 2025 - Apr 2025" data-zh="2025年3月 - 2025年4月">Mar 2025 - Apr 2025</span>
+                        <span data-en="Category: Data Visualization" data-zh="分类：数据可视化">Category: Data Visualization</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Sole Developer & Project Lead" data-zh="项目负责人，独立完成全部流程">Sole Developer & Project Lead</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/spring-2025.html" data-en="EECE 5642 – Data Visualization" data-zh="EECE 5642 – 数据可视化">EECE 5642 – Data Visualization</a></p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="This project aimed to build an interactive dashboard to visualize the COVID-19 outbreak across the United States using official data, allowing intuitive exploration of trends, spatial distribution, and timeline interactions." data-zh="本项目旨在构建一个交互式数据可视化仪表盘，基于美国 COVID-19 疫情官方数据，直观展示疫情变化趋势、空间分布与指标统计，支持用户在地图与时间轴中自由切换与交互。">
+                    This project aimed to build an interactive dashboard to visualize the COVID-19 outbreak across the United States using official data, allowing intuitive exploration of trends, spatial distribution, and timeline interactions.
+                </p>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p>Python, Dash, Plotly, Pandas</p>
+                <p data-en="Johns Hopkins COVID-19 dataset (JHU CSSE), Choropleth maps, trend line charts, interactive sliders & callbacks" data-zh="美国约翰斯·霍普金斯 COVID-19 数据集（JHU CSSE）、Choropleth 地图、趋势折线图、互动滑动条与回调函数">Johns Hopkins COVID-19 dataset (JHU CSSE), Choropleth maps, trend line charts, interactive sliders & callbacks</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Acquired and processed official U.S. COVID-19 data from Johns Hopkins and Census sources" data-zh="从 JHU 与美国普查局抓取并清洗数据，构建完整分析流程">Acquired and processed official U.S. COVID-19 data from Johns Hopkins and Census sources</li>
+                    <li data-en="Built a fully interactive dashboard using Dash & Plotly for state-level visualization" data-zh="使用 Dash 构建网页前端与交互式地图，支持州级 COVID-19 数据浏览">Built a fully interactive dashboard using Dash & Plotly for state-level visualization</li>
+                    <li data-en="Implemented time-range filtering, choropleth maps, line charts with callbacks" data-zh="实现交互功能：时间轴滑块、地图点击联动、动态折线图更新">Implemented time-range filtering, choropleth maps, line charts with callbacks</li>
+                    <li data-en="Designed dynamic cards to show metrics: confirmed cases, deaths, active rate, fatality rate" data-zh="设计信息面板（卡片）展示感染总数、死亡人数、致死率等摘要指标">Designed dynamic cards to show metrics: confirmed cases, deaths, active rate, fatality rate</li>
+                    <li data-en="Completed the entire pipeline: design → data → dashboard → deployment-ready interface" data-zh="统一完成设计、开发、调试与可视化界面展示">Completed the entire pipeline: design → data → dashboard → deployment-ready interface</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="The dashboard allows smooth filtering by time and region, with clear trend visualization" data-zh="系统能实时展示不同日期下的美国州级疫情变化，并通过地图颜色直观反映感染比例">The dashboard allows smooth filtering by time and region, with clear trend visualization</li>
+                    <li data-en="Enabled simultaneous exploration of spatial (map) and temporal (chart) aspects of the outbreak" data-zh="图表与地图交互响应顺畅，支持多维度指标展示和趋势比较">Enabled simultaneous exploration of spatial (map) and temporal (chart) aspects of the outbreak</li>
+                    <li data-en="Delivered a complete real-world visualization system applying Python libraries and UI design principles" data-zh="项目总结了数据可视化的实用流程，涵盖清洗、联动回调设计与前端布局优化">Delivered a complete real-world visualization system applying Python libraries and UI design principles</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p>
+                    <a href="https://github.com/kermit0125/COVID-19-Interactive-Visualization-Dashboard" target="_blank" data-en="View GitHub Repository" data-zh="访问项目 GitHub 仓库">View GitHub Repository</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

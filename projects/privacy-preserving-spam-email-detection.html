@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy-Preserving Spam Email Detection - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="Privacy-Preserving Spam Email Detection" data-zh="隐私保护的垃圾邮件识别">Privacy-Preserving Spam Email Detection</h1>
+                    <div class="detail-meta">
+                        <span data-en="Nov 2024 - Dec 2024" data-zh="2024年11月 - 2024年12月">Nov 2024 - Dec 2024</span>
+                        <span data-en="Category: Data Classification" data-zh="分类：数据分类">Category: Data Classification</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Lead Developer for Data Processing & Modeling" data-zh="项目代码部分负责人，主导数据预处理、模型训练与评估代码实现">Lead Developer for Data Processing & Modeling</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/fall-2024.html" data-en="EECE 5644 – Machine Learning & Pattern Recognition" data-zh="EECE 5644 – 机器学习与模式识别">EECE 5644 – Machine Learning & Pattern Recognition</a></p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="This project aimed to build a lightweight, privacy-preserving spam email classification system. By replacing raw text with word frequency vectors and applying dimensionality reduction techniques (e.g., PCA), the project compared the effectiveness of models like Random Forest and RBF-SVM under various preprocessing pipelines." data-zh="本项目旨在构建一个轻量、隐私保护的垃圾邮件分类系统。通过词频向量替代原始文本，实现本地化特征提取与降维处理，进一步比较多种分类模型（Random Forest 与 RBF-SVM）在不同预处理下的表现，最终实现高效的邮件识别。">
+                    This project aimed to build a lightweight, privacy-preserving spam email classification system. By replacing raw text with word frequency vectors and applying dimensionality reduction techniques (e.g., PCA), the project compared the effectiveness of models like Random Forest and RBF-SVM under various preprocessing pipelines.
+                </p>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p>Python, scikit-learn, NumPy, Pandas</p>
+                <p data-en="Natural Language Processing (Word Frequency Vector), Random Forest, RBF Support Vector Machine (SVM), Principal Component Analysis (PCA), SMOTE undersampling balance method, Seaborn and Matplotlib visualization tools" data-zh="自然语言处理（词频向量化）、随机森林、径向基核支持向量机（SVM）、主成分分析（PCA）、SMOTE 欠采样平衡方法、Seaborn 与 Matplotlib 可视化工具">Natural Language Processing (Word Frequency Vector), Random Forest, RBF Support Vector Machine (SVM), Principal Component Analysis (PCA), SMOTE undersampling balance method, Seaborn and Matplotlib visualization tools</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Led the development of data preprocessing pipeline: cleaning, SMOTE, normalization, PCA" data-zh="负责完成数据加载、清洗、SMOTE 平衡、归一化与 PCA 降维流程">Led the development of data preprocessing pipeline: cleaning, SMOTE, normalization, PCA</li>
+                    <li data-en="Implemented and compared Random Forest and RBF-SVM models in Python" data-zh="独立实现 Random Forest 与 RBF-SVM 模型的训练与交叉验证对比">Implemented and compared Random Forest and RBF-SVM models in Python</li>
+                    <li data-en="Evaluated performance with and without dimensionality reduction" data-zh="评估模型在降维与非降维下的性能差异，并生成混淆矩阵与可视化图">Evaluated performance with and without dimensionality reduction</li>
+                    <li data-en="Generated confusion matrices, accuracy scores, and feature importance plots" data-zh="梳理整体 pipeline，从数据预处理 → 特征提取 → 模型训练 → 精度评估">Generated confusion matrices, accuracy scores, and feature importance plots</li>
+                    <li data-en="Contributed all code for modeling and analysis phases" data-zh="贡献了建模和分析阶段的所有代码">Contributed all code for modeling and analysis phases</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Achieved over 90% accuracy with reduced input dimensions" data-zh="降维后模型整体精度仍保持在 89%–91%，特征数大幅减少">Achieved over 90% accuracy with reduced input dimensions</li>
+                    <li data-en="Preserved privacy by avoiding direct use of email content" data-zh="成功验证了词频向量在隐私场景下的可行性，无需处理原始邮件文本">Preserved privacy by avoiding direct use of email content</li>
+                    <li data-en="Random Forest showed more stable and interpretable results compared to SVM" data-zh="Random Forest 模型在泛化能力与可解释性上优于 SVM">Random Forest showed more stable and interpretable results compared to SVM</li>
+                    <li data-en="Visualization included PCA projections, feature importance, and confusion matrix" data-zh="图形结果展示了重要词汇、主成分投影与模型决策边界">Visualization included PCA projections, feature importance, and confusion matrix</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p>
+                    <a href="https://github.com/kermit0125/Privacy-Preserving-Spam-Email-Detection" target="_blank" data-en="View GitHub Repository" data-zh="访问项目 GitHub 仓库">View GitHub Repository</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+

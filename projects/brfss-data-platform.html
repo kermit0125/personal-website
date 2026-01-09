@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRFSS Data Platform - Keming Xing</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" data-en="Keming Xing" data-zh="邢珂铭">Keming Xing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="../cv.html" data-en="CV" data-zh="简历">CV</a></li>
+                <li><a href="../courses.html" data-en="Courses" data-zh="课程">Courses</a></li>
+                <li><a href="../projects.html" data-en="Projects" data-zh="项目">Projects</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+                    <span class="lang-text">中文</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="../projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-en="Back to Projects" data-zh="返回项目列表">Back to Projects</span>
+            </a>
+            
+            <div class="detail-content">
+                <div class="detail-header">
+                    <h1 data-en="BRFSS Data Platform & Analytics Dashboard" data-zh="BRFSS 数据分析平台与可视化仪表盘">BRFSS Data Platform & Analytics Dashboard</h1>
+                    <div class="detail-meta">
+                        <span data-en="Sep 2025 - Dec 2025" data-zh="2025年9月 - 2025年12月">Sep 2025 - Dec 2025</span>
+                        <span data-en="Categories: Data Classification, Data Analytics" data-zh="分类：数据分类、数据分析">Categories: Data Classification, Data Analytics</span>
+                    </div>
+                </div>
+
+                <h2 data-en="Role" data-zh="项目角色">Role</h2>
+                <p data-en="Sole contributor: completed the end-to-end data science pipeline including data processing, modeling, and analytics" data-zh="独立完成端到端数据分析项目：数据清洗、结构建模、分析与可视化">Sole contributor: completed the end-to-end data science pipeline including data processing, modeling, and analytics</p>
+
+                <h2 data-en="Course" data-zh="所属课程">Course</h2>
+                <p><a href="../courses/fall-2025.html" data-en="DS5110 – Essentials of Data Science" data-zh="DS5110 – 数据科学基础">DS5110 – Essentials of Data Science</a></p>
+
+                <h2 data-en="Objective" data-zh="项目目标">Objective</h2>
+                <p data-en="This project is based on the Behavioral Risk Factor Surveillance System (BRFSS), a large-scale public health survey dataset released by the U.S. CDC. The dataset spans multiple years and regions, containing complex demographic and health-related variables. The objective was to design and implement an end-to-end data science pipeline that transforms raw, heterogeneous BRFSS data into structured insights through data cleaning, modeling, exploratory analysis, and visualization, enabling interpretable analysis of health risk factors across populations." data-zh="本项目基于美国 CDC 发布的 Behavioral Risk Factor Surveillance System（BRFSS）公共健康调查数据集展开。该数据集规模大、结构复杂，包含跨年份、跨地区的人口统计信息与健康行为指标，具有较强的现实分析与决策支持价值。项目目标是构建一个完整的数据科学分析流程，从原始、多源、异构的 BRFSS 数据出发，完成数据清洗、结构统一、探索性分析与结果可视化，系统性地挖掘人口特征与健康风险因素之间的关系，并以可解释的方式呈现分析结果。">
+                    This project is based on the Behavioral Risk Factor Surveillance System (BRFSS), a large-scale public health survey dataset released by the U.S. CDC. The dataset spans multiple years and regions, containing complex demographic and health-related variables. The objective was to design and implement an end-to-end data science pipeline that transforms raw, heterogeneous BRFSS data into structured insights through data cleaning, modeling, exploratory analysis, and visualization, enabling interpretable analysis of health risk factors across populations.
+                </p>
+
+                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
+                <p data-en="Python data analysis (Pandas, NumPy), Large-scale data cleaning & ETL Pipeline, Multi-table and hierarchical data structure modeling, Parquet data storage & performance optimization, Exploratory Data Analysis (EDA), Data visualization (Plotly / Matplotlib)" data-zh="Python 数据分析（Pandas, NumPy）、大规模数据清洗与 ETL Pipeline、多表与层级数据结构建模、Parquet 数据存储与性能优化、探索性数据分析（EDA）、数据可视化（Plotly / Matplotlib）">Python data analysis (Pandas, NumPy), Large-scale data cleaning & ETL Pipeline, Multi-table and hierarchical data structure modeling, Parquet data storage & performance optimization, Exploratory Data Analysis (EDA), Data visualization (Plotly / Matplotlib)</p>
+
+                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <ul>
+                    <li data-en="Cleaned and processed millions of rows of raw BRFSS survey data" data-zh="清洗并整合数百万行跨年份的 BRFSS 原始数据">Cleaned and processed millions of rows of raw BRFSS survey data</li>
+                    <li data-en="Reconstructed hierarchical structures across class, topic, question, and response levels" data-zh="统一并重构 Class / Topic / Question / Response 多层级结构">Reconstructed hierarchical structures across class, topic, question, and response levels</li>
+                    <li data-en="Standardized inconsistent response encodings across years" data-zh="标准化不同年份中语义相同但编码不一致的 Response 与 Breakout">Standardized inconsistent response encodings across years</li>
+                    <li data-en="Designed analysis-ready data schemas and optimized storage using Parquet" data-zh="设计分析友好的数据 schema，并转换为 Parquet 格式以提升性能">Designed analysis-ready data schemas and optimized storage using Parquet</li>
+                    <li data-en="Built reusable aggregation pipelines for multi-dimensional analysis" data-zh="构建可复用的分组聚合与指标计算分析流程">Built reusable aggregation pipelines for multi-dimensional analysis</li>
+                    <li data-en="Visualized trends and comparisons across demographic and geographic dimensions" data-zh="开发多维度分析视角（性别、年龄、教育、收入、地区、年份）并进行可视化展示">Visualized trends and comparisons across demographic and geographic dimensions</li>
+                </ul>
+
+                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <ul>
+                    <li data-en="Delivered a complete and reusable end-to-end data science pipeline" data-zh="构建了完整、可复用的端到端数据分析工作流">Delivered a complete and reusable end-to-end data science pipeline</li>
+                    <li data-en="Enabled systematic analysis of health indicators across multiple demographic dimensions" data-zh="成功支持对健康指标在不同人口维度下的系统性分析">Enabled systematic analysis of health indicators across multiple demographic dimensions</li>
+                    <li data-en="Supported longitudinal trend analysis and regional comparisons" data-zh="实现跨年份趋势分析与区域对比分析">Supported longitudinal trend analysis and regional comparisons</li>
+                    <li data-en="Produced interpretable results relevant to real-world public health decision-making" data-zh="分析结果具备较强的可解释性，适用于真实公共健康与决策分析场景">Produced interpretable results relevant to real-world public health decision-making</li>
+                </ul>
+
+                <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
+                <p data-en="Data analysis pipeline completed; code will be updated upon completion of the frontend visualization dashboard" data-zh="数据分析部分已完成，前端可视化界面完善后将更新代码">Data analysis pipeline completed; code will be updated upon completion of the frontend visualization dashboard</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2025 Keming Xing. All rights reserved." data-zh="© 2025 邢珂铭。保留所有权利。">© 2025 Keming Xing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+
