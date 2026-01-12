@@ -47,10 +47,29 @@ function updateLanguage() {
     // Update all elements with data-en and data-zh attributes
     const elements = document.querySelectorAll('[data-en][data-zh]');
     elements.forEach(element => {
+        // Skip elements that are inside other elements with data attributes (to preserve HTML structure)
+        if (element.closest('[data-en][data-zh]') !== element) {
+            return;
+        }
+        
+        // For elements that contain HTML tags (like <strong>), use innerHTML
+        // Otherwise use textContent for safety
+        const hasHTML = element.innerHTML !== element.textContent;
+        
         if (currentLang === 'zh') {
-            element.textContent = element.getAttribute('data-zh');
+            const zhText = element.getAttribute('data-zh');
+            if (hasHTML && zhText.includes('<')) {
+                element.innerHTML = zhText;
+            } else {
+                element.textContent = zhText;
+            }
         } else {
-            element.textContent = element.getAttribute('data-en');
+            const enText = element.getAttribute('data-en');
+            if (hasHTML && enText.includes('<')) {
+                element.innerHTML = enText;
+            } else {
+                element.textContent = enText;
+            }
         }
     });
     
@@ -76,4 +95,7 @@ function updateLanguage() {
 window.currentLang = currentLang;
 window.updateLanguage = updateLanguage;
 window.toggleLanguage = toggleLanguage;
+
+
+
 

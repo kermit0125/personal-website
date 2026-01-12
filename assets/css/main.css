@@ -858,15 +858,25 @@ body {
 }
 
 .detail-content a.btn,
-.detail-content a.btn-primary {
+.detail-content a.btn-primary,
+.resume-download a.btn,
+.resume-download a.btn-primary,
+.text-center a.btn,
+.text-center a.btn-primary {
     color: white !important;
     text-decoration: none;
+    opacity: 1 !important;
 }
 
 .detail-content a.btn:hover,
-.detail-content a.btn-primary:hover {
+.detail-content a.btn-primary:hover,
+.resume-download a.btn:hover,
+.resume-download a.btn-primary:hover,
+.text-center a.btn:hover,
+.text-center a.btn-primary:hover {
     color: white !important;
     text-decoration: none;
+    opacity: 1 !important;
 }
 
 .back-link {
