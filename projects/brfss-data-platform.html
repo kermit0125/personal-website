@@ -41,11 +41,27 @@
             
             <div class="detail-content">
                 <div class="detail-header">
-                    <h1 data-en="BRFSS Data Platform & Analytics Dashboard" data-zh="BRFSS 数据分析平台与可视化仪表盘">BRFSS Data Platform & Analytics Dashboard</h1>
+                    <h1 data-en="BRFSS Interactive Data Dashboard" data-zh="BRFSS 交互式数据仪表板">BRFSS Interactive Data Dashboard</h1>
                     <div class="detail-meta">
-                        <span data-en="Sep 2025 - Dec 2025" data-zh="2025年9月 - 2025年12月">Sep 2025 - Dec 2025</span>
-                        <span data-en="Categories: Data Classification, Data Analytics" data-zh="分类：数据分类、数据分析">Categories: Data Classification, Data Analytics</span>
+                        <span data-en="October 2025 - December 2025" data-zh="2025年10月 - 2025年12月">October 2025 - December 2025</span>
+                        <span data-en="Categories: Data Engineering, Data Visualization, Web Development" data-zh="分类：数据工程、数据可视化、Web开发">Categories: Data Engineering, Data Visualization, Web Development</span>
                     </div>
+                </div>
+
+                <h2 data-en="Project Overview" data-zh="项目概览">Project Overview</h2>
+                <p data-en="A production-ready, interactive web dashboard for exploring CDC's Behavioral Risk Factor Surveillance System (BRFSS) data. The system processes over 1.7 million records with 98 unique health questions across 56 U.S. states and territories, spanning 13 years (2011-2023) of public health survey data." data-zh="一个生产就绪的交互式Web仪表板，用于探索CDC的行为风险因素监测系统（BRFSS）数据。该系统处理超过170万条记录，包含98个独特的健康问题，覆盖美国56个州和地区，时间跨度13年（2011-2023年）的公共健康调查数据。">
+                    A production-ready, interactive web dashboard for exploring CDC's Behavioral Risk Factor Surveillance System (BRFSS) data. The system processes over 1.7 million records with 98 unique health questions across 56 U.S. states and territories, spanning 13 years (2011-2023) of public health survey data.
+                </p>
+                
+                <div style="background-color: var(--bg-light); padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+                    <h3 style="margin-top: 0;" data-en="Key Highlights" data-zh="关键亮点">Key Highlights</h3>
+                    <ul style="margin-bottom: 0;">
+                        <li data-en="<strong>Data Scale:</strong> 1.7M+ records processed with automated quality filtering" data-zh="<strong>数据规模：</strong>处理170万+条记录，具备自动化质量过滤"><strong>Data Scale:</strong> 1.7M+ records processed with automated quality filtering</li>
+                        <li data-en="<strong>Geographic Coverage:</strong> 56 U.S. states and territories" data-zh="<strong>地理覆盖：</strong>美国56个州和地区"><strong>Geographic Coverage:</strong> 56 U.S. states and territories</li>
+                        <li data-en="<strong>Time Range:</strong> 2011-2023 (13 years of data)" data-zh="<strong>时间跨度：</strong>2011-2023年（13年数据）"><strong>Time Range:</strong> 2011-2023 (13 years of data)</li>
+                        <li data-en="<strong>Data Quality:</strong> 99.76% completeness with automated validation" data-zh="<strong>数据质量：</strong>99.76%完整性，具备自动化验证"><strong>Data Quality:</strong> 99.76% completeness with automated validation</li>
+                        <li data-en="<strong>Visualizations:</strong> 7 multi-dimensional analysis panels with interactive features" data-zh="<strong>可视化：</strong>7个多维度分析面板，具备交互功能"><strong>Visualizations:</strong> 7 multi-dimensional analysis panels with interactive features</li>
+                    </ul>
                 </div>
 
                 <h2 data-en="Role" data-zh="项目角色">Role</h2>
@@ -59,29 +75,84 @@
                     This project is based on the Behavioral Risk Factor Surveillance System (BRFSS), a large-scale public health survey dataset released by the U.S. CDC. The dataset spans multiple years and regions, containing complex demographic and health-related variables. The objective was to design and implement an end-to-end data science pipeline that transforms raw, heterogeneous BRFSS data into structured insights through data cleaning, modeling, exploratory analysis, and visualization, enabling interpretable analysis of health risk factors across populations.
                 </p>
 
-                <h2 data-en="Technologies" data-zh="技术工具">Technologies</h2>
-                <p data-en="Python data analysis (Pandas, NumPy), Large-scale data cleaning & ETL Pipeline, Multi-table and hierarchical data structure modeling, Parquet data storage & performance optimization, Exploratory Data Analysis (EDA), Data visualization (Plotly / Matplotlib)" data-zh="Python 数据分析（Pandas, NumPy）、大规模数据清洗与 ETL Pipeline、多表与层级数据结构建模、Parquet 数据存储与性能优化、探索性数据分析（EDA）、数据可视化（Plotly / Matplotlib）">Python data analysis (Pandas, NumPy), Large-scale data cleaning & ETL Pipeline, Multi-table and hierarchical data structure modeling, Parquet data storage & performance optimization, Exploratory Data Analysis (EDA), Data visualization (Plotly / Matplotlib)</p>
+                <h2 data-en="Technology Stack" data-zh="技术栈">Technology Stack</h2>
+                <div style="margin-bottom: 1rem;">
+                    <h3 data-en="Backend & Data Processing" data-zh="后端与数据处理">Backend & Data Processing</h3>
+                    <ul>
+                        <li data-en="<strong>Python 3.8+</strong> - Core programming language" data-zh="<strong>Python 3.8+</strong> - 核心编程语言"><strong>Python 3.8+</strong> - Core programming language</li>
+                        <li data-en="<strong>Pandas 2.0+</strong> - Data manipulation and analysis" data-zh="<strong>Pandas 2.0+</strong> - 数据操作与分析"><strong>Pandas 2.0+</strong> - Data manipulation and analysis</li>
+                        <li data-en="<strong>NumPy 1.24+</strong> - Numerical computations" data-zh="<strong>NumPy 1.24+</strong> - 数值计算"><strong>NumPy 1.24+</strong> - Numerical computations</li>
+                        <li data-en="<strong>PyArrow 12.0+</strong> - Parquet file handling for efficient storage" data-zh="<strong>PyArrow 12.0+</strong> - Parquet文件处理，实现高效存储"><strong>PyArrow 12.0+</strong> - Parquet file handling for efficient storage</li>
+                    </ul>
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <h3 data-en="Frontend & Visualization" data-zh="前端与可视化">Frontend & Visualization</h3>
+                    <ul>
+                        <li data-en="<strong>Dash 2.14+</strong> - Web application framework for interactive dashboards" data-zh="<strong>Dash 2.14+</strong> - 交互式仪表板Web应用框架"><strong>Dash 2.14+</strong> - Web application framework for interactive dashboards</li>
+                        <li data-en="<strong>Plotly 5.17+</strong> - Interactive visualizations and charts" data-zh="<strong>Plotly 5.17+</strong> - 交互式可视化与图表"><strong>Plotly 5.17+</strong> - Interactive visualizations and charts</li>
+                        <li data-en="<strong>Plotly Express</strong> - High-level chart creation API" data-zh="<strong>Plotly Express</strong> - 高级图表创建API"><strong>Plotly Express</strong> - High-level chart creation API</li>
+                        <li data-en="<strong>HTML/CSS</strong> - UI styling and responsive layout" data-zh="<strong>HTML/CSS</strong> - UI样式与响应式布局"><strong>HTML/CSS</strong> - UI styling and responsive layout</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 data-en="Data Engineering" data-zh="数据工程">Data Engineering</h3>
+                    <ul>
+                        <li data-en="<strong>7-Step ETL Pipeline</strong> - Automated data cleaning and transformation" data-zh="<strong>7步ETL流程</strong> - 自动化数据清洗与转换"><strong>7-Step ETL Pipeline</strong> - Automated data cleaning and transformation</li>
+                        <li data-en="<strong>Parquet Format</strong> - Columnar storage for efficient querying" data-zh="<strong>Parquet格式</strong> - 列式存储，实现高效查询"><strong>Parquet Format</strong> - Columnar storage for efficient querying</li>
+                        <li data-en="<strong>Quality Validation</strong> - Automated data quality checks and filtering" data-zh="<strong>质量验证</strong> - 自动化数据质量检查与过滤"><strong>Quality Validation</strong> - Automated data quality checks and filtering</li>
+                    </ul>
+                </div>
 
-                <h2 data-en="My Contributions" data-zh="我的工作内容">My Contributions</h2>
+                <h2 data-en="Key Features & Implementation" data-zh="核心功能与实现">Key Features & Implementation</h2>
+                
+                <h3 data-en="1. Automated Data Cleaning Pipeline (7 Steps)" data-zh="1. 自动化数据清洗流程（7步）">1. Automated Data Cleaning Pipeline (7 Steps)</h3>
                 <ul>
-                    <li data-en="Cleaned and processed millions of rows of raw BRFSS survey data" data-zh="清洗并整合数百万行跨年份的 BRFSS 原始数据">Cleaned and processed millions of rows of raw BRFSS survey data</li>
-                    <li data-en="Reconstructed hierarchical structures across class, topic, question, and response levels" data-zh="统一并重构 Class / Topic / Question / Response 多层级结构">Reconstructed hierarchical structures across class, topic, question, and response levels</li>
-                    <li data-en="Standardized inconsistent response encodings across years" data-zh="标准化不同年份中语义相同但编码不一致的 Response 与 Breakout">Standardized inconsistent response encodings across years</li>
-                    <li data-en="Designed analysis-ready data schemas and optimized storage using Parquet" data-zh="设计分析友好的数据 schema，并转换为 Parquet 格式以提升性能">Designed analysis-ready data schemas and optimized storage using Parquet</li>
-                    <li data-en="Built reusable aggregation pipelines for multi-dimensional analysis" data-zh="构建可复用的分组聚合与指标计算分析流程">Built reusable aggregation pipelines for multi-dimensional analysis</li>
-                    <li data-en="Visualized trends and comparisons across demographic and geographic dimensions" data-zh="开发多维度分析视角（性别、年龄、教育、收入、地区、年份）并进行可视化展示">Visualized trends and comparisons across demographic and geographic dimensions</li>
+                    <li data-en="<strong>Step 0 - Preprocessing:</strong> Text normalization, encoding resolution, special character handling" data-zh="<strong>步骤0 - 预处理：</strong>文本标准化、编码解析、特殊字符处理"><strong>Step 0 - Preprocessing:</strong> Text normalization, encoding resolution, special character handling</li>
+                    <li data-en="<strong>Step 1 - QuestionID Merging:</strong> Consolidated duplicate QuestionIDs for identical questions" data-zh="<strong>步骤1 - QuestionID合并：</strong>合并相同问题的重复QuestionID"><strong>Step 1 - QuestionID Merging:</strong> Consolidated duplicate QuestionIDs for identical questions</li>
+                    <li data-en="<strong>Step 2 - ResponseID Merging:</strong> Standardized historical response changes and variants" data-zh="<strong>步骤2 - ResponseID合并：</strong>标准化历史响应变更和变体"><strong>Step 2 - ResponseID Merging:</strong> Standardized historical response changes and variants</li>
+                    <li data-en="<strong>Step 3 - BreakoutID Merging:</strong> Normalized age groups, income brackets, education levels" data-zh="<strong>步骤3 - BreakoutID合并：</strong>标准化年龄组、收入等级、教育水平"><strong>Step 3 - BreakoutID Merging:</strong> Normalized age groups, income brackets, education levels</li>
+                    <li data-en="<strong>Step 4 - Numeric Cleaning:</strong> Type conversion, validation, and proportion calculation" data-zh="<strong>步骤4 - 数值清洗：</strong>类型转换、验证和比例计算"><strong>Step 4 - Numeric Cleaning:</strong> Type conversion, validation, and proportion calculation</li>
+                    <li data-en="<strong>Step 5 - Aggregation:</strong> Recalculated confidence intervals using binomial distribution" data-zh="<strong>步骤5 - 聚合：</strong>使用二项分布重新计算置信区间"><strong>Step 5 - Aggregation:</strong> Recalculated confidence intervals using binomial distribution</li>
+                    <li data-en="<strong>Step 6 - Quality Enhancement:</strong> Missing value handling, consistency validation, quality reporting" data-zh="<strong>步骤6 - 质量增强：</strong>缺失值处理、一致性验证、质量报告"><strong>Step 6 - Quality Enhancement:</strong> Missing value handling, consistency validation, quality reporting</li>
                 </ul>
 
-                <h2 data-en="Results" data-zh="项目成果">Results</h2>
+                <h3 data-en="2. Interactive Dashboard Features" data-zh="2. 交互式仪表板功能">2. Interactive Dashboard Features</h3>
                 <ul>
-                    <li data-en="Delivered a complete and reusable end-to-end data science pipeline" data-zh="构建了完整、可复用的端到端数据分析工作流">Delivered a complete and reusable end-to-end data science pipeline</li>
-                    <li data-en="Enabled systematic analysis of health indicators across multiple demographic dimensions" data-zh="成功支持对健康指标在不同人口维度下的系统性分析">Enabled systematic analysis of health indicators across multiple demographic dimensions</li>
-                    <li data-en="Supported longitudinal trend analysis and regional comparisons" data-zh="实现跨年份趋势分析与区域对比分析">Supported longitudinal trend analysis and regional comparisons</li>
-                    <li data-en="Produced interpretable results relevant to real-world public health decision-making" data-zh="分析结果具备较强的可解释性，适用于真实公共健康与决策分析场景">Produced interpretable results relevant to real-world public health decision-making</li>
+                    <li data-en="<strong>Multi-Dimensional Analysis:</strong> 7 visualization panels covering overall distribution, gender, age, education, income, geography, and temporal trends" data-zh="<strong>多维度分析：</strong>7个可视化面板，涵盖总体分布、性别、年龄、教育、收入、地理和时间趋势"><strong>Multi-Dimensional Analysis:</strong> 7 visualization panels covering overall distribution, gender, age, education, income, geography, and temporal trends</li>
+                    <li data-en="<strong>Hierarchical Filtering:</strong> Class → Topic → Question selection with cascading dropdowns" data-zh="<strong>层级过滤：</strong>Class → Topic → Question 级联下拉选择"><strong>Hierarchical Filtering:</strong> Class → Topic → Question selection with cascading dropdowns</li>
+                    <li data-en="<strong>Interactive U.S. Map:</strong> Choropleth visualization with intelligent color mapping and statistical summary panel" data-zh="<strong>交互式美国地图：</strong>等值区域图可视化，具备智能颜色映射和统计摘要面板"><strong>Interactive U.S. Map:</strong> Choropleth visualization with intelligent color mapping and statistical summary panel</li>
+                    <li data-en="<strong>Confidence Intervals:</strong> Displayed on all charts with detailed hover tooltips" data-zh="<strong>置信区间：</strong>所有图表显示置信区间，具备详细悬停提示"><strong>Confidence Intervals:</strong> Displayed on all charts with detailed hover tooltips</li>
+                    <li data-en="<strong>Age Granularity Toggle:</strong> Switch between 7-group and 3-group age analysis" data-zh="<strong>年龄粒度切换：</strong>7组和3组年龄分析之间切换"><strong>Age Granularity Toggle:</strong> Switch between 7-group and 3-group age analysis</li>
+                </ul>
+
+                <h3 data-en="3. Data Engineering & Architecture" data-zh="3. 数据工程与架构">3. Data Engineering & Architecture</h3>
+                <ul>
+                    <li data-en="Designed modular backend architecture separating data loading, processing, aggregation, and API-style callbacks" data-zh="设计模块化后端架构，分离数据加载、处理、聚合和API风格回调">Designed modular backend architecture separating data loading, processing, aggregation, and API-style callbacks</li>
+                    <li data-en="Implemented efficient Parquet-based data storage for fast columnar querying" data-zh="实现基于Parquet的高效数据存储，支持快速列式查询">Implemented efficient Parquet-based data storage for fast columnar querying</li>
+                    <li data-en="Built reusable aggregation pipelines with proper statistical weighting (sample size-based)" data-zh="构建可复用的聚合流程，具备正确的统计加权（基于样本量）">Built reusable aggregation pipelines with proper statistical weighting (sample size-based)</li>
+                    <li data-en="Automated quality filtering (minimum sample size ≥30) for statistical reliability" data-zh="自动化质量过滤（最小样本量≥30），确保统计可靠性">Automated quality filtering (minimum sample size ≥30) for statistical reliability</li>
+                </ul>
+
+                <h2 data-en="Results & Impact" data-zh="项目成果与影响">Results & Impact</h2>
+                <ul>
+                    <li data-en="<strong>Production-Ready System:</strong> Delivered a complete, reusable end-to-end data science pipeline with automated quality assurance" data-zh="<strong>生产就绪系统：</strong>交付了完整的、可复用的端到端数据科学流程，具备自动化质量保证"><strong>Production-Ready System:</strong> Delivered a complete, reusable end-to-end data science pipeline with automated quality assurance</li>
+                    <li data-en="<strong>Data Quality:</strong> Achieved 99.76% data completeness with automated validation and filtering" data-zh="<strong>数据质量：</strong>通过自动化验证和过滤，实现99.76%的数据完整性"><strong>Data Quality:</strong> Achieved 99.76% data completeness with automated validation and filtering</li>
+                    <li data-en="<strong>Multi-Dimensional Analysis:</strong> Enabled systematic exploration of health indicators across 7 demographic and geographic dimensions" data-zh="<strong>多维度分析：</strong>支持在7个人口统计和地理维度上系统性探索健康指标"><strong>Multi-Dimensional Analysis:</strong> Enabled systematic exploration of health indicators across 7 demographic and geographic dimensions</li>
+                    <li data-en="<strong>Longitudinal Analysis:</strong> Supported 13-year trend analysis (2011-2023) with temporal visualization" data-zh="<strong>纵向分析：</strong>支持13年趋势分析（2011-2023），具备时间序列可视化"><strong>Longitudinal Analysis:</strong> Supported 13-year trend analysis (2011-2023) with temporal visualization</li>
+                    <li data-en="<strong>Geographic Insights:</strong> Interactive U.S. map visualization enabling regional health comparisons across 56 states and territories" data-zh="<strong>地理洞察：</strong>交互式美国地图可视化，支持56个州和地区的区域健康对比"><strong>Geographic Insights:</strong> Interactive U.S. map visualization enabling regional health comparisons across 56 states and territories</li>
+                    <li data-en="<strong>Real-World Application:</strong> Produced interpretable results relevant to public health research and policy decision-making" data-zh="<strong>实际应用：</strong>产生与公共健康研究和政策决策相关的可解释结果"><strong>Real-World Application:</strong> Produced interpretable results relevant to public health research and policy decision-making</li>
                 </ul>
 
                 <h2 data-en="GitHub Repository" data-zh="项目源码">GitHub Repository</h2>
-                <p data-en="Data analysis pipeline completed; code will be updated upon completion of the frontend visualization dashboard" data-zh="数据分析部分已完成，前端可视化界面完善后将更新代码">Data analysis pipeline completed; code will be updated upon completion of the frontend visualization dashboard</p>
+                <p>
+                    <a href="https://github.com/kermit0125/BRFSS-Dashboard" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">
+                        <i class="fab fa-github" style="margin-right: 0.5rem;"></i>
+                        <span data-en="View on GitHub: BRFSS-Dashboard" data-zh="在GitHub查看：BRFSS-Dashboard">View on GitHub: BRFSS-Dashboard</span>
+                    </a>
+                </p>
+                <p data-en="The repository includes complete source code, documentation, data cleaning pipeline scripts, and deployment guides. The project follows industry-standard SDE practices with modular architecture, comprehensive documentation, and production-ready deployment configurations." data-zh="仓库包含完整的源代码、文档、数据清洗流程脚本和部署指南。项目遵循行业标准的SDE实践，采用模块化架构、全面文档和生产就绪的部署配置。">
+                    The repository includes complete source code, documentation, data cleaning pipeline scripts, and deployment guides. The project follows industry-standard SDE practices with modular architecture, comprehensive documentation, and production-ready deployment configurations.
+                </p>
             </div>
         </div>
     </section>
@@ -95,4 +166,7 @@
     <script src="../assets/js/main.js"></script>
 </body>
 </html>
+
+
+
 
