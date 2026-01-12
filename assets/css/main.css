@@ -298,6 +298,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    color: inherit;
 }
 
 .btn-primary {
@@ -306,12 +307,23 @@ body {
     border: 2px solid var(--primary-color);
 }
 
+a.btn-primary {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
 .btn-primary:hover {
     background-color: var(--primary-dark);
     border-color: var(--primary-dark);
     transform: translateY(-2px);
     box-shadow: var(--shadow);
     color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+a.btn-primary:hover {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
 }
 
 .btn-secondary {
@@ -857,26 +869,51 @@ body {
     text-decoration: underline;
 }
 
+/* Ensure buttons are excluded from the above link styling */
 .detail-content a.btn,
 .detail-content a.btn-primary,
+.detail-content a.btn-secondary {
+    color: white !important;
+}
+
+.detail-content a.btn:hover,
+.detail-content a.btn-primary:hover,
+.detail-content a.btn-secondary:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* Override link color for buttons in detail content */
+.detail-content a.btn,
+.detail-content a.btn-primary,
+.detail-content .resume-download a.btn,
+.detail-content .resume-download a.btn-primary,
+.detail-content .text-center a.btn,
+.detail-content .text-center a.btn-primary,
 .resume-download a.btn,
 .resume-download a.btn-primary,
 .text-center a.btn,
 .text-center a.btn-primary {
     color: white !important;
-    text-decoration: none;
+    text-decoration: none !important;
     opacity: 1 !important;
+    -webkit-text-fill-color: white !important;
 }
 
 .detail-content a.btn:hover,
 .detail-content a.btn-primary:hover,
+.detail-content .resume-download a.btn:hover,
+.detail-content .resume-download a.btn-primary:hover,
+.detail-content .text-center a.btn:hover,
+.detail-content .text-center a.btn-primary:hover,
 .resume-download a.btn:hover,
 .resume-download a.btn-primary:hover,
 .text-center a.btn:hover,
 .text-center a.btn-primary:hover {
     color: white !important;
-    text-decoration: none;
+    text-decoration: none !important;
     opacity: 1 !important;
+    -webkit-text-fill-color: white !important;
 }
 
 .back-link {
