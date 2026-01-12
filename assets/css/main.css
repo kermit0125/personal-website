@@ -302,13 +302,16 @@ body {
 
 .btn-primary {
     background-color: var(--primary-color);
-    color: white;
+    color: white !important;
+    border: 2px solid var(--primary-color);
 }
 
 .btn-primary:hover {
     background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
     transform: translateY(-2px);
     box-shadow: var(--shadow);
+    color: white !important;
 }
 
 .btn-secondary {
