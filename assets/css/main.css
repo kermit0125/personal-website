@@ -857,6 +857,18 @@ body {
     text-decoration: underline;
 }
 
+.detail-content a.btn,
+.detail-content a.btn-primary {
+    color: white !important;
+    text-decoration: none;
+}
+
+.detail-content a.btn:hover,
+.detail-content a.btn-primary:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
 .back-link {
     display: inline-block;
     margin-bottom: 2rem;
