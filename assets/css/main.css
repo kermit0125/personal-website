@@ -129,6 +129,16 @@ body {
     background-color: var(--primary-dark);
 }
 
+/* Make lang-btn work as a link */
+a.lang-btn {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.lang-btn:hover {
+    text-decoration: none;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
